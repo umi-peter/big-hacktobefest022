@@ -10,3 +10,5 @@ else
 echo 'file not found'
 
 fi
+
+locate test123
