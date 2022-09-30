@@ -2,8 +2,8 @@
 
 
 
-if [ -f "test123" ] ; then
-    rm "test123"
+if [ -f "test123.txt" ] ; then
+    rm "test123.txt"
 
 else
 
