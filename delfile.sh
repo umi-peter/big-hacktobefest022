@@ -11,4 +11,7 @@ echo 'file not found'
 
 fi
 
-locate test123
+mlocate test123
+#if locate command not found 
+
+apt install mlocate
