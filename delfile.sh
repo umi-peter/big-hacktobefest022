@@ -14,4 +14,4 @@ fi
 mlocate test123
 #if locate command not found 
 
-apt install mlocate
+sudo apt install mlocate
