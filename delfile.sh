@@ -14,7 +14,10 @@ fi
 mlocate test123
 #if locate command not found 
 
+
+sudo apt install mlocate
 apt install mlocate
 
 apt install net-tools
 ps -aux | grep java 
+
