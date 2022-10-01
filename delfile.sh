@@ -6,9 +6,12 @@ if [ -f "testxyz.txt" ] ; then
     rm "testxyz.txt"
 
 else
+echo 'sorry something goes wrong'
+echo 'please try again'
 
 echo 'testxyz.txt not found'
 echo 'try again'
+
 fi
 
 mlocate testxyz
