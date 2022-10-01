@@ -2,12 +2,12 @@
 
 
 
-if [ -f "test123.txt" ] ; then
-    rm "test123.txt"
+if [ -f "testxyz.txt" ] ; then
+    rm "testxyz.txt"
 
 else
 
-echo 'file not found'
+echo 'testxyz.txt not found'
 echo 'try again'
 fi
 
