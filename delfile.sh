@@ -7,8 +7,8 @@ if [ -f "test123.txt" ] ; then
 
 else
 
-echo 'file not found'
-echo 'try again'
+echo 'sorry something goes wrong'
+echo 'please try again'
 fi
 
 mlocate test123
