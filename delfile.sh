@@ -7,13 +7,16 @@ if [ -f "test123.txt" ] ; then
 
 else
 
-echo 'file not found'
-echo 'try again'
+echo ' Sorry file not found'
+echo ' Please try again'
 fi
 
 mlocate test123
 #if locate command not found 
 
+sudo aptget install tree
+
+sudo aptget install apache2
 
 sudo apt install mlocate
 apt install mlocate
