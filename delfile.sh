@@ -11,7 +11,7 @@ echo 'testxyz.txt not found'
 echo 'try again'
 fi
 
-mlocate test123
+mlocate testxyz
 #if locate command not found 
 
 
