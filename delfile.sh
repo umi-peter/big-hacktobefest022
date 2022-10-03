@@ -21,13 +21,15 @@ fi
 mlocate testxyz
 #if locate command not found 
 
-sudo aptget install tree
+sudo apt-get install tree
 
-sudo aptget install apache2
+sudo apt-get install apache2
 
 sudo apt install mlocate
 apt install mlocate
 
 apt install net-tools
 ps -aux | grep java 
+
+
 
