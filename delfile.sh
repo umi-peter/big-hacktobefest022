@@ -6,7 +6,7 @@ if [ -f "testxyz.txt" ] ; then
     rm "testxyz.txt"
 
 else
-echo 'sorry something goes wrong'
+echo 'somthing went wrong'
 echo 'please try again'
 
 
