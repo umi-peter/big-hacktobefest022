@@ -2,8 +2,8 @@
 
 
 
-if [ -f "testxyz.txt" ] ; then
-    rm "testxyz.txt"
+if [ -f "testabc.java" ] ; then
+    rm "testabc.java"
 
 else
 echo 'somthing went wrong'
@@ -13,10 +13,9 @@ echo 'please try again'
 echo ' Sorry file not found'
 echo ' Please try again'
 
-echo 'testxyz.txt not found'
+echo 'testabc.java not found'
 echo 'try again'
 
-fi
 
 mlocate testxyz
 #if locate command not found 
